@@ -43,3 +43,16 @@ below is the reason it did not worked before
 DOING A CHANGE IN FIRSTBRANCH AND TRYING TO CHECK IF IT DIRECTLY UPDATED ON MAIN IF WE PUSH TO MAIN - WE CANNOT
 
 i have used git push origin main after making changes in firstbranch, it did not accept changes
+
+
+#INFO ON HOW TO START GIT AND CLONE REPO 
+
+COMMIT 1 : 
+
+git init
+git remote add origin <repo-url>
+
+git clone https://github.com/username/repository-name.git
+to open : cd repository-name
+
+COMMIT 1 END
