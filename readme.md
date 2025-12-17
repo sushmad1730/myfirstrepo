@@ -40,4 +40,4 @@ below is the reason it did not worked before
 --now git is not updated on vs code. to update it do a git pull on firstbranch
 -- if you raise a pr from firstbranch to main, do git pull on the main branmch too 
 
-DOING A CHANGE IN FIRSTBRANCH AND TRYING TO CHECK IF IT DIRECTLY UPDATED ON MAIN IF WE PUSH TO MAIN 
+DOING A CHANGE IN FIRSTBRANCH AND TRYING TO CHECK IF IT DIRECTLY UPDATED ON MAIN IF WE PUSH TO MAIN - WE CANNOT
