@@ -23,3 +23,6 @@ this is the change done directly on git, to update this in vs code we need to pu
  * TO CREATE AND SWITCH AT SAME TIME : git checkout -b firstbranch 
 
  4. PUSH BRANCH TO GITHUB: git push -u origin firstbranch
+
+
+ I HAVE ADDED LINES IN MAIN DIRECTLY ON GIT HUB AND DID NOT DO A PULL HERE AND TRYING TO RAISE PR
