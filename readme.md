@@ -56,3 +56,9 @@ git clone https://github.com/username/repository-name.git
 to open : cd repository-name
 
 COMMIT 1 END
+
+COMMIT 2:
+
+LET US ASSUME THIS IS A WRONG COMMIT 
+
+COMMIT 2 END
