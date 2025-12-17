@@ -41,3 +41,5 @@ below is the reason it did not worked before
 -- if you raise a pr from firstbranch to main, do git pull on the main branmch too 
 
 DOING A CHANGE IN FIRSTBRANCH AND TRYING TO CHECK IF IT DIRECTLY UPDATED ON MAIN IF WE PUSH TO MAIN - WE CANNOT
+
+i have used git push origin main after making changes in firstbranch, it did not accept changes
