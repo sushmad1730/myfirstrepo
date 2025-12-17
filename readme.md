@@ -25,3 +25,5 @@ this is the change done directly on git, to update this in vs code we need to pu
  4. PUSH BRANCH TO GITHUB: git push -u origin firstbranch
 
  I MADE A CHANGE IN THE FILE ON GIT HUB DIRECTLY
+
+ I HAVE ADDED LINES IN MAIN DIRECTLY ON GIT HUB AND DID NOT DO A PULL HERE AND TRYING TO RAISE PR
