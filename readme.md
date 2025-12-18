@@ -72,3 +72,64 @@ COMMIT 3 END
 
 
 THIS IS THE COMMIT ON THIRD BRANCH
+
+SECOND COMMIT WITHOUT DOING PULL ON MAIN
+
+
+TO UNSTAGE THE COMMIT:
+
+merge --abort - abort merge 
+reset --soft HEAD~1 - undo commit
+
+if changes are not commited you can undo by using 
+            git restore filename.ext
+in all files
+            git restore .
+
+
+unstage files 
+            git restore --staged filename.ext
+in all files
+            git restore -- staged .
+
+
+
+UNDO LAST COMMIT NOT PUSHED
+            git reset --soft HEAD~1 -- KEEPS CODE
+KEEP CODE BUT UNSTAGED 
+            git reset HEAD~1
+DELETE CODE 
+            git reset --hard HEAD~1
+
+
+UNDO COMMIT THAT IS PUSHED 
+            git revert HEAD
+            git push
+
+
+Abort merge (merge in progress)
+            git merge --abort
+
+Undo completed merge (not pushed)
+            git reset --hard HEAD~1
+
+Undo pushed merge
+            git revert -m 1 HEAD
+            git push
+
+
+Undo EVERYTHING (recover deleted work)
+
+If you used reset --hard by mistake:
+
+git reflog
+git reset --hard <commit-hash>
+
+
+Situation	                            Command
+Changed file by mistake ----------------- git restore file
+Added wrong file ------------------------ git restore --staged file
+Bad commit, not pushed ------------------ git reset --soft HEAD~1
+Bad commit, pushed -----------------------git revert HEAD
+Merge stuck ----------------------------- git merge --abort
+Everything gone ------------------------- git reflog
